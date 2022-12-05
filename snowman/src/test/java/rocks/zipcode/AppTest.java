@@ -15,6 +15,10 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
+        Complier complier = new Compiler();
+        String input = "(print {divide 12 3))";
+        System.out.println(";; Input: " +input);
+        System.out.println(output);
         assertTrue( true );
     }
 }
