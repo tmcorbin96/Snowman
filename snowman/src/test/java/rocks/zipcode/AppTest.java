@@ -21,4 +21,11 @@ public class AppTest
         System.out.println(output);
         assertTrue( true );
     }
+
+    String input = "(print (divide 12 3))";
+    Compiler compiler = new Compiler();
+    System.out.println(";; Input code: "+input);
+    String output = compiler.compile(input);
+    System.out.println(output);
+}
 }
